@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viettel Telecom - Gói WiFi & Truyền hình</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .hero-section {
+        background: url("https://viettel.com.vn/media/viettel/original_images/Tam_nhin-1.jpg")
+          no-repeat center center;
+        background-size: cover;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        color: white;
+      }
+      .navbar-custom {
+        background-color: #1b1b1b;
+        padding: 10px 0;
+      }
+
+      .navbar-custom .navbar-brand {
+        font-weight: bold;
+        color: #e60000;
+      }
+
+      .navbar-custom .nav-link {
+        color: white;
+        font-size: 14px;
+        margin-right: 10px;
+        white-space: nowrap; /* Đảm bảo không xuống hàng */
+      }
+
+      .navbar-custom .navbar-collapse {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .btn-custom {
+        padding: 5px 15px; /* Giảm kích thước của nút */
+        font-size: 13px; /* Giảm kích thước chữ trong nút */
+        border-radius: 15px;
+        margin-left: 5px;
+      }
+
+      .navbar-custom .btn-danger {
+        background-color: #e60000; /* Màu cho nút "Đăng nhập" */
+      }
+
+      .navbar-custom .btn-outline-light {
+        border-color: white;
+        color: white;
+      }
+
+      .btn-outline-light:hover {
+        background-color: white;
+        color: #1b1b1b;
+      }
+
+      .btn-custom {
+        border-radius: 20px;
+        margin-left: 5px; /* Giảm khoảng cách giữa các nút */
+      }
+
+      .navbar-custom .nav-link.active {
+        color: #e60000;
+      }
+
+      .btn-custom {
+        padding: 5px 15px; /* Giảm kích thước của nút */
+        font-size: 13px; /* Giảm kích thước chữ trong nút */
+        border-radius: 15px;
+        margin-left: 5px;
+      }
+
+      .pricing-card:hover {
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://nms.com.vn/wp-content/uploads/2021/10/viettel-logo.png"
+            alt=""
+            width="120"
+          />
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dịch vụ di động</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Internet/Truyền hình</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Viettel++</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Điện thoại</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hỗ trợ khách hàng</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My Viettel</a>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-danger btn-custom">Đăng nhập</a>
+          <a href="#" class="btn btn-outline-light btn-custom">Đăng ký</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center">
+      <div class="container">
+        <h1 class="display-4 fw-bold">Gói WiFi & Truyền hình Viettel</h1>
+        <a href="#plans" class="btn btn-light btn-lg mt-3">Xem các gói cước</a>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-5">
+      <div class="container text-center">
+        <h2 class="mb-4">Tại sao chọn Viettel?</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <i class="bi bi-wifi display-4 text-primary mb-3"></i>
+                <h5 class="card-title">Internet Tốc Độ Cao</h5>
+                <p class="card-text">
+                  Cung cấp đường truyền ổn định, tốc độ cao, phù hợp cho cả công
+                  việc và giải trí.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <i class="bi bi-tv display-4 text-success mb-3"></i>
+                <h5 class="card-title">Truyền Hình Đa Dạng</h5>
+                <p class="card-text">
+                  Truy cập hàng trăm kênh truyền hình với nội dung phong phú và
+                  hấp dẫn.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <i class="bi bi-headset display-4 text-danger mb-3"></i>
+                <h5 class="card-title">Hỗ Trợ 24/7</h5>
+                <p class="card-text">
+                  Dịch vụ chăm sóc khách hàng chuyên nghiệp, luôn sẵn sàng hỗ
+                  trợ.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section id="plans" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Các gói cước WiFi & Truyền hình</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card pricing-card">
+              <div class="card-header text-center bg-primary text-white">
+                <h4>Gói Cơ Bản</h4>
+              </div>
+              <div class="card-body text-center">
+                <h1 class="display-5">299K</h1>
+                <p class="text-muted">/ tháng</p>
+                <ul class="list-unstyled">
+                  <li>Tốc độ 50 Mbps</li>
+                  <li>100+ kênh truyền hình</li>
+                  <li>Miễn phí lắp đặt</li>
+                </ul>
+                <a href="#" class="btn btn-primary mt-3">Đăng ký ngay</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card pricing-card">
+              <div class="card-header text-center bg-success text-white">
+                <h4>Gói Phổ Thông</h4>
+              </div>
+              <div class="card-body text-center">
+                <h1 class="display-5">399K</h1>
+                <p class="text-muted">/ tháng</p>
+                <ul class="list-unstyled">
+                  <li>Tốc độ 100 Mbps</li>
+                  <li>150+ kênh truyền hình</li>
+                  <li>Miễn phí lắp đặt & thiết bị</li>
+                </ul>
+                <a href="#" class="btn btn-success mt-3">Đăng ký ngay</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card pricing-card">
+              <div class="card-header text-center bg-danger text-white">
+                <h4>Gói Cao Cấp</h4>
+              </div>
+              <div class="card-body text-center">
+                <h1 class="display-5">499K</h1>
+                <p class="text-muted">/ tháng</p>
+                <ul class="list-unstyled">
+                  <li>Tốc độ 200 Mbps</li>
+                  <li>200+ kênh truyền hình</li>
+                  <li>Tặng đầu thu HD miễn phí</li>
+                </ul>
+                <a href="#" class="btn btn-danger mt-3">Đăng ký ngay</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="py-4 bg-dark text-white text-center">
+      <div class="container">
+        <p>&copy; 2024 Viettel Telecom. All rights reserved.</p>
+        <a href="#" class="text-white">Chính sách bảo mật</a> |
+        <a href="#" class="text-white">Điều khoản sử dụng</a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
